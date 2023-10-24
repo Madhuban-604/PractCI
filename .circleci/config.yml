@@ -32,7 +32,7 @@ workflows:
       - test:
           requires:
             - build
-      - deplot:
+      - deploy:
           requires:
             - test
           filters:
